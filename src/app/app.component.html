@@ -1,0 +1,13 @@
+<div class="container home" >
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+      <ul class="nav nav-tabs">
+        <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a routerLink="/contact" class="navContact">Contact</a></li>
+        <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a routerLink="/about" class="navAbout">About</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+      <router-outlet></router-outlet>
+  </div>
+</div>
